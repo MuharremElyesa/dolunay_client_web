@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(216, 216, 216);
+}
+
+body {
+    background-image: url("../images/arkaplan1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* -------------------------------- */
+/* GİRİŞ KARTI STİLLERİ */
+/* -------------------------------- */
+
+.login-card {
+    background-color: rgba(33, 37, 41, 0.7);
+    color: rgb(216, 216, 216);
+}
+
+.login-card input {
+    background-color: rgba(33, 37, 41, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgb(216, 216, 216);
+}
+
+.login-card input:focus {
+    background-color: rgba(33, 37, 41, 0.9);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.login-card button {
+    background-color: rgba(33, 37, 41, 0.7);
+    border: none;
+    color: rgb(216, 216, 216);
+}
+
+.login-card button:hover {
+    background-color: rgba(33, 37, 41, 0.9);
+    color: rgb(255, 255, 255);
+}
+
+.social-login-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px; /* Simge ile yazı arasındaki o şık mesafe */
+    padding: 10px 16px !important;
+}
+
+.social-login-btn .btn-icon {
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain;
+    flex-shrink: 0; /* Simge boyutu asla daralmasın */
+}
+
+#forgotPasswordLink {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+#forgotPasswordLink:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.card hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
