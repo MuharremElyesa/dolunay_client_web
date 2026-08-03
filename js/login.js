@@ -8,6 +8,21 @@ function signInFacebook() {
     window.location.href = "https://api.dolunay.muharremelyesa.com/auth/facebook/login";
 }
 
+function signInGithub() {
+    // Doğrudan Rust backend OAuth rotamıza yönlendiriyoruz
+    window.location.href = "https://api.dolunay.muharremelyesa.com/auth/github/login";
+}
+
+function signInDiscord() {
+    // Doğrudan Rust backend OAuth rotamıza yönlendiriyoruz
+    window.location.href = "https://api.dolunay.muharremelyesa.com/auth/discord/login";
+}
+
+function signInLinkedin() {
+    // Doğrudan Rust backend OAuth rotamıza yönlendiriyoruz
+    window.location.href = "https://api.dolunay.muharremelyesa.com/auth/linkedin/login";
+}
+
 const urlParams = new URLSearchParams(window.location.search);
 
 if (urlParams.get('status') === 'success') {
