@@ -3,6 +3,11 @@ function signInGoogle() {
     window.location.href = "http://api.dolunay.muharremelyesa.com/auth/google/login";
 }
 
+function signInFacebook() {
+    // Doğrudan Rust backend OAuth rotamıza yönlendiriyoruz
+    window.location.href = "https://api.dolunay.muharremelyesa.com/auth/facebook/login";
+}
+
 const urlParams = new URLSearchParams(window.location.search);
 
 if (urlParams.get('status') === 'success') {
